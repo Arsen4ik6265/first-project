@@ -27,7 +27,6 @@
     <div class="header__logo">
       <img class="header__logo-image" src="images/logo-black.svg" alt="Оно тебе надо">
     </div>
-    <!-- <a href="#"></a> -->
     <address class="header__address">
       <a href="tel:+99995555555">+9 999 555 5555</a>
       <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -35,9 +34,7 @@
     </address>
   </header>
   <main>
-    <!-- cover -->
     <section class="cover">
-      <!-- Не шарю, модификатор это или элемент -->
       <div class="overlay"></div>
       <h1 class="cover__title">
         <span class="aligned-text">Оно</span>
@@ -49,7 +46,6 @@
         <button class="cover__description__button">Сделать ставку</button>
       </div>
     </section>
-    <!-- Лоты -->
     <section class="lots">
       <h2 class="lots__heading">Лоты</h2>
       <ul class="lots__card-list">
@@ -60,9 +56,9 @@
               <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
               <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
                 знали, что режиссёр — Пол Томас Андерсон?</p>
-              </article>
-              </a>
-          </li>
+            </article>
+          </a>
+        </li>
         <li class="lots__card-list-item card_type_book">
           <div class="overlay"></div>
           <a class="card-link" href="#">
@@ -72,8 +68,8 @@
                 древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная
                 с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на
                 «Улисса» Джеймса Джойса?</p>
-              </article>
-          </a> 
+            </article>
+          </a>
         </li>
         <li class="lots__card-list-item card_type_picture">
           <div class="overlay"></div>
@@ -89,11 +85,13 @@
       </ul>
       <a class="lots__look-more-link" href="#">посмотреть больше</a>
     </section>
-    <!-- об аукционе  -->
     <section class="about">
-      <img src="images/logo-white.svg" alt="оно тебе надо 2">
-      <!-- <div></div> -->
-      <h3 class="about__heading">Об аукционе</h3>
+      <div class="about__row">
+        <div class="about__row__logo">
+          <img class="about__row__logo-image" src="/images/logo-white.svg" alt="Логотип Оно тебе надо">
+        </div>
+        <h2 class="about__row__title">Об аукционе</h2>
+      </div>
       <div class="about__text">
         <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не
           должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую
@@ -105,7 +103,6 @@
       </div>
     </section>
   </main>
-  <!-- footer -->
   <footer class="footer">
     <address class="address">
       <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -114,9 +111,15 @@
     </address>
     <nav class="footer__menu">
       <ul class="footer__menu-list">
-        <li><a class="footer__menu-link" href="#">главная</a></li>
-        <li><a class="footer__menu-link" href="#">посмотреть лоты</a></li>
-        <li><a class="footer__menu-link" href="#">об аукционе</a></li>
+        <li class="footer__links-list-item">
+          <a class="footer__menu-link_active" href="#">главная</a>
+        </li>
+        <li class="footer__links-list-item">
+          <a class="footer__menu-link" href="#">посмотреть лоты</a>
+        </li>
+        <li class="footer__links-list-item">
+          <a class="footer__menu-link" href="#">об аукционе</a>
+        </li>
       </ul>
     </nav>
     <ul class="footer__social-list">
